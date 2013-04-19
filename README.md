@@ -1,5 +1,7 @@
 # ArrayToTable.js
 
+Convert a json array to a sortable html table.
+
 ## Usage
 
 Download the [script from GitHub](https://raw.github.com/tpatel/ArrayToTable.js/master/lib/arrayToTable.js).
