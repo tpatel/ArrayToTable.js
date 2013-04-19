@@ -11,6 +11,11 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+    	.remove {
+    		margin-left:10px;
+    	}
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -53,6 +58,16 @@
     arrayToTable.setTable('tableID', myArray);
 &lt;/script&gt;
 </code></pre>
+
+<h2>Example</h2>
+
+<script src="https://raw.github.com/tpatel/ArrayToTable.js/master/lib/arrayToTable.js"></script>
+<table id="myTable"></table>
+<script>
+    var myArray = [{name:'Thibaut', age:22, randomNumber:0.314}, {name:'Joe', age:43, randomNumber:0.256}, {name:'Jane', age:27, randomNumber:0.1337}];
+    arrayToTable.setTable('myTable', myArray);
+</script>
+
 
 <h2>License</h2>
 
